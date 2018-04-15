@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+}
+
+.wrapper img {
+    position: absolute;
+    right: 250px;
+}
+
+.wrapper table {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.wrapper ul {
+    position: relative;
+    top: 100px;
+}
+
+.floating img{
+    float: right;
+}
+
+.floating {
+    position: relative;
+}
+
