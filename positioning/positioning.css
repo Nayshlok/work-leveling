@@ -5,6 +5,7 @@
 .wrapper img {
     position: absolute;
     right: 250px;
+    height: 200px;
 }
 
 .wrapper table {
@@ -20,9 +21,16 @@
 
 .floating img{
     float: right;
+    height: 200px;
 }
 
 .floating {
     position: relative;
+    top: 100px;
 }
 
+.staticed {
+    position: relative;
+    top: 100px;
+    clear: both;
+}

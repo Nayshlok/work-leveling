@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: space-around;
+}
+
+.wrapper img {
+    flex-grow: 1;
+}
+
+.wrapper table {
+    flex-grow: 3;
+}
+
+.wrapper ul {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.floating {
+    display: grid;
+    grid-template-columns: 40% 30% 10%;
+}
+
+.floating .itemimage {
+    grid-row: 1 / 3
+}
