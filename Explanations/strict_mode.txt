@@ -1,0 +1,2 @@
+Strict mode is a way to opt into a variant of javascript. Some of the biggest differences is that the strict mode will cause silent javascript errors to become thrown errors and actually break the javascript. This means as developers we can produce better code because rather than allowing errors to exist because they don't affect anything we have to fix them. strict mode can be enabled on an entire script or just a function. To enable it, put 'use strict'; before any other statements.
+It also identifies more key words, in order to pave the way for future javscript releases.
